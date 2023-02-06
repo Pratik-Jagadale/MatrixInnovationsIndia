@@ -1,0 +1,26 @@
+<div *ngIf="selectedProjectCategory === 'All'">
+  <b>Data is All.</b>
+  <app-web-gl-project></app-web-gl-project>
+  <br>
+  <app-birth-day></app-birth-day>
+  <br>
+  <app-ds-projects></app-ds-projects>
+  <br>
+  <app-special-effects></app-special-effects>
+</div>
+<div *ngIf="selectedProjectCategory === 'WebGL-Project(OpenGLES)'">
+  <b>Data is WebGL-Project(OpenGLES).</b>
+  <app-web-gl-project></app-web-gl-project>
+</div>
+<div *ngIf="selectedProjectCategory === 'DS-Projects(OpenGL FFP)'">
+  <b>Data isDS-Projects(OpenGL FFP).</b>
+  <app-ds-projects></app-ds-projects>
+</div>
+<div *ngIf="selectedProjectCategory === 'Birthday-Projects'">
+  <b>Data is Birthday-Projects.</b>
+  <app-birth-day></app-birth-day>
+</div>
+<div *ngIf="selectedProjectCategory === 'Special-Effects'">
+  <b>Data is Special-Effects.</b>
+  <app-special-effects></app-special-effects>
+</div>

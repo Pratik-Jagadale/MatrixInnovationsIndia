@@ -1,0 +1,15 @@
+.SelectPage {
+    height: 50vh;
+    width: 50vw;
+}
+
+.selectBox {
+    width: 50px;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.SelectDiv {
+    text-align: center;
+    margin-top: 15px;
+}

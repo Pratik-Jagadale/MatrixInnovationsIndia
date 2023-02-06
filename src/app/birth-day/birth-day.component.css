@@ -1,0 +1,57 @@
+.row_project_list {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    width: 95vw;
+    padding: 10px;
+}
+
+.video {
+    height: 40vh;
+    width: 30vw;
+}
+
+.desc {
+
+    height: 40vh;
+    width: 70vw;
+}
+
+.YouTube {
+    height: 100%;
+    width: 100%;
+}
+
+.Title {
+    text-align: center;
+}
+
+.Desc {
+    overflow-y: scroll;
+    height: 63%;
+    padding: 0 15px 0 15px;
+    white-space: pre-wrap;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/*
+ *  STYLE 4
+ */
+
+.Desc::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+.Desc::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.Desc::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 1px solid #555555;
+    margin: 5px;
+}

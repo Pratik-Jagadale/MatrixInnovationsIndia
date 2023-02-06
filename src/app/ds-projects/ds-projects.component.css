@@ -1,0 +1,36 @@
+.row_project_list {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    width: 95vw;
+    padding: 10px;
+}
+
+.video {
+    height: 40vh;
+    width: 30vw;
+}
+
+.desc {
+
+    height: 40vh;
+    width: 70vw;
+}
+
+.YouTube {
+    height: 100%;
+    width: 100%;
+}
+
+.Title {
+    text-align: center;
+}
+
+.Desc {
+
+    padding: 0 0 0 15px;
+    white-space: pre-wrap;
+    text-align: justify;
+    text-indent: 50px;
+}
