@@ -1,13 +1,15 @@
-.SelectPage{
-    height:100vh;
-    width:100vw;
+.SelectPage {
+    height: 100vh;
+    width: 60vw;
 }
-.selectBox{
-    width:250px;
-    height:45px;
+
+.selectBox {
+    width: 250px;
+    height: 45px;
     border-radius: 10px;
 }
-.SelectDiv{
-    text-align:center;
+
+.SelectDiv {
+    text-align: center;
     margin-top: 15px;
 }

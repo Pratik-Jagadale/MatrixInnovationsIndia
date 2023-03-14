@@ -3,37 +3,56 @@
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 5px 5px 5px gray;
-    width: 95vw;
+    width: 70vw;
     padding: 10px;
 }
 
+.row_project_list_ShadowBox {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+}
+
+.div-bottom {
+    margin-bottom: 25px;
+}
+
 .video {
-    height: 40vh;
+    align-items: center;
+    text-align: center;
+    height: 20vw;
     width: 30vw;
 }
 
 .desc {
-
+    align-items: center;
     height: 40vh;
-    width: 70vw;
+    width: 50vw;
 }
 
 .YouTube {
+    align-items: center;
+    text-align: center;
     height: 100%;
     width: 100%;
 }
 
 .Title {
+    align-items: center;
     text-align: center;
 }
 
 .Desc {
+    align-items: center;
     overflow-y: scroll;
     height: 63%;
     padding: 0 15px 0 15px;
     white-space: pre-wrap;
     text-align: justify;
     text-indent: 50px;
+    width: fit-content;
 }
 
 /*

@@ -1,12 +1,16 @@
 .SelectPage {
     height: 50vh;
-    width: 50vw;
+    width: 10vw;
 }
 
 .selectBox {
-    width: 50px;
+    width: 10px;
     height: 45px;
     border-radius: 10px;
+}
+
+.sec1 {
+    width: 10px;
 }
 
 .SelectDiv {

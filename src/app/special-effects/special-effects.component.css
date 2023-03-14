@@ -3,7 +3,7 @@
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 5px 5px 5px gray;
-    width: 95vw;
+    width: 80vw;
     padding: 10px;
 }
 
@@ -15,7 +15,7 @@
 .desc {
 
     height: 40vh;
-    width: 70vw;
+    width: 50vw;
 }
 
 .YouTube {
