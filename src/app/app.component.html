@@ -20,7 +20,7 @@
 
         <!-- Header -->
         <header id="header">
-          <a href="../index.html" class="logo"><strong>Matrix</strong> Innovations India</a>
+          <a href="../index.html" class="logo">Out of the Darkness, into the<strong> Matrix</strong></a>
           <ul class="icons">
             <li><a href="https://www.youtube.com/@astromedicompsrtr4.0matrix25" class="icon brands fa-youtube"><span
                   class="label">YouTube</span></a>
@@ -38,28 +38,30 @@
     <button class="openbtn" (click)="openNav()"> ☰ </button>
 
     <!-- Sidebar -->
-    <div id="sidebar">
-      <div class="inner" id="innerId">
+    <ng-container *ngIf="show">
 
-        <!-- Search -->
+      <div id="sidebar">
+        <div class="inner alignCenter" id="innerId">
+
+          <!-- Search 
         <section id="search" class="alt">
           <form method="post" action="#">
             <input type="text" name="query" id="query" placeholder="Search" />
           </form>
-        </section>
+        </section>-->
 
-        <!-- Menu -->
-        <nav id="menu">
-          <header class="major">
-            <h2>Menu</h2>
-          </header>
-          <ul>
-            <li><a href="/Home">Homepage</a></li>
-            <li><a href="/Projects">Projects</a></li>
-            <li><a href="/Team">Team</a></li>
-            <li><a href="/Gallary">Gallary</a></li>
-            <li>
-              <span class="opener">Submenu</span>
+          <!-- Menu -->
+          <nav id="menu">
+            <header class="major">
+              <h2>Menu</h2>
+            </header>
+            <ul>
+              <li><a href="/Home">Homepage</a></li>
+              <li><a href="/Projects">Projects</a></li>
+              <li><a href="/Team">Team</a></li>
+              <li><a href="/Gallary">Gallary</a></li>
+              <!--<li>
+               <span class="opener">Submenu</span>
               <ul>
                 <li><a href="#">Lorem Dolor</a></li>
                 <li><a href="#">Ipsum Adipiscing</a></li>
@@ -67,11 +69,11 @@
                 <li><a href="#">Feugiat Veroeros</a></li>
               </ul>
             </li>
-            <li><a routerLink="/About" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>
-          </ul>
-        </nav>
+            <li><a routerLink="/About" routerLinkActive="active" ariaCurrentWhenActive="page">About</a></li>-->
+            </ul>
+          </nav>
 
-        <!-- Section Highlights -->
+          <!-- Section Highlights 
         <section>
           <header class="major">
             <h2>Highlights</h2>
@@ -94,33 +96,31 @@
             <li><a href="#" class="button">More</a></li>
           </ul>
         </section>
+-->
+          <!-- Section Get in touch-->
+          <section>
+            <header class="major">
+              <h2>Get in touch</h2>
+            </header>
+            <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem
+              ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat
+              tempus aliquam.
+            </p>
+            <ul class="contact">
+              <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
+              <li class="icon solid fa-phone">+91 9284487145</li>
+              <li class="icon solid fa-home">Anandashram<br />
+                Bajirao Road, Pune.</li>
+            </ul>
+          </section>
 
-        <!-- Section Get in touch-->
-        <section>
-          <header class="major">
-            <h2>Get in touch</h2>
-          </header>
-          <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem
-            ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat
-            tempus aliquam.
-          </p>
-          <ul class="contact">
-            <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-            <li class="icon solid fa-phone">+91 9284487145</li>
-            <li class="icon solid fa-home">Puene<br />
-              Nashville, TN 00000-0000</li>
-          </ul>
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer">
-          <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a
-              href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5
-              UP</a>.</p>
-        </footer>
-
+          <!-- Footer -->
+          <footer id="footer">
+            <p class="copyright">&copy;Copyright 2023 by Matrix Innovations India.</p>
+          </footer>
+        </div>
       </div>
-    </div>
+    </ng-container>
 
 
   </div>

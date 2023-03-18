@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+.align {
+  align-items: left;
+}
+
 .PhotoSection {
   padding: 10px 0 0 270px;
   text-align: center;

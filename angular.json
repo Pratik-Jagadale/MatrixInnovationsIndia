@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/matrix-innovations-india",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,7 +27,8 @@
               "src/assets/webfonts",
               "src/assets/js/main.js",
               "src/assets/images",
-              "src/assets/ProjectHeader"
+              "src/assets/ProjectHeader",
+              "src/assets/profile_photos"
             ],
             "styles": [
               "src/styles.css",
@@ -103,6 +104,9 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

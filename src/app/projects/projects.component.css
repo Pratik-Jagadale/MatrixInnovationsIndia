@@ -13,7 +13,25 @@
     width: 10px;
 }
 
+.mainImg1 {
+    align-items: center;
+    width: 90vw;
+    height: 70vw;
+}
+
 .SelectDiv {
     text-align: center;
     margin-top: 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
 }
