@@ -1,10 +1,25 @@
 .openbtn {
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     background-color: white;
     color: white;
     padding: 5px 30px;
     border: none;
+}
+
+.button {
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    color: white;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #ff4848;
+    /* Green */
+    color: white;
 }
 
 .alignCenter {

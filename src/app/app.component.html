@@ -11,16 +11,16 @@
 
 
 <ng-container *ngIf="isMobileDevice">
+  <button class="button" (click)="openNav()"> ☰ </button>
+
 
   <!-- Wrapper -->
   <div id="wrapper">
 
-
     <!-- Main -->
-    <ng-container *ngIf="notToShow">
+    <ng-container *ngIf="showMain">
       <div id="main">
         <div class="inner">
-          <button class="openbtn " (click)="openNav()"> ☰ </button>
 
           <!-- Header -->
           <header id="header">
@@ -41,7 +41,9 @@
     </ng-container>
 
     <!-- Sidebar -->
-    <ng-container *ngIf="show">
+    <ng-container *ngIf="showHeader">
+
+
 
       <div id="sidebar alignCenter">
         <div class="inner alignCenter" id="innerId">
@@ -54,7 +56,6 @@
           </form>
         </section>-->
 
-            <button class="openbtn " (click)="openNav()"> ☰ </button>
 
 
             <!-- Menu -->
@@ -64,7 +65,7 @@
               </header>
               <ul>
                 <li><a href="/Home">Homepage</a></li>
-                <li><a href="/Projects">Projects</a></li>
+                <li><a href="/Projects" (click)="tabChanged()">Projects</a></li>
                 <li><a href="/Team">Team</a></li>
                 <li><a href="/Gallary">Gallary</a></li>
                 <!--<li>
@@ -105,14 +106,12 @@
         </section>
 -->
             <!-- Section Get in touch-->
+            <br>
+            <br>
             <section>
               <header class="major">
                 <h2>Get in touch</h2>
               </header>
-              <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem
-                ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat
-                tempus aliquam.
-              </p>
               <ul class="contact">
                 <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
                 <li class="icon solid fa-phone">+91 9284487145</li>
@@ -163,10 +162,10 @@
 
 
 
-    <button class="openbtn " (click)="openNav()"> ☰ </button>
+    <button class="button " (click)="openNav()"> ☰ </button>
 
     <!-- Sidebar -->
-    <ng-container *ngIf="show">
+    <ng-container *ngIf="showHeader">
 
       <div id="sidebar">
         <div class="inner" id="innerId">
@@ -230,10 +229,6 @@
             <header class="major">
               <h2>Get in touch</h2>
             </header>
-            <p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem
-              ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat
-              tempus aliquam.
-            </p>
             <ul class="contact">
               <li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
               <li class="icon solid fa-phone">+91 9284487145</li>

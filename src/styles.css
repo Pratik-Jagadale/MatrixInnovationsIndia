@@ -516,7 +516,7 @@
     margin: 0 auto;
 }
 
-/*
+
 @media (max-width: 1199px) {
     .u-section-1 .u-sheet-1 {
         min-height: 1055px;
@@ -786,7 +786,7 @@
         font-size: 1.75rem;
     }
 }
-*/
+
 .u-section-2 {
     min-height: 600px;
 }

@@ -1,15 +1,13 @@
-<section class="SelectPage">
-  <div class="SelectDiv">
-    <label>Select Project Category</label>
-    <select [(ngModel)]="selectedProjectCategory" class="selectBox">
-      <option>All</option>
-      <option>WebGL-Project(OpenGLES)</option>
-      <option>DS-Projects(OpenGL FFP)</option>
-      <option>Birthday-Projects</option>
-      <option>Special-Effects</option>
-    </select>
-  </div>
-  <hr>
-  <br />
-  <app-project-list [selectedProjectCategory]="selectedProjectCategory"></app-project-list>
-</section>
+<div class="SelectDiv">
+  <label>Select Project Category</label>
+  <select [(ngModel)]="selectedProjectCategory" class="selectBox">
+    <option>All</option>
+    <option>WebGL-Project(OpenGLES)</option>
+    <option>DS-Projects(OpenGL FFP)</option>
+    <option>Birthday-Projects</option>
+    <option>Special-Effects</option>
+  </select>
+</div>
+<hr>
+<br />
+<app-project-list [selectedProjectCategory]="selectedProjectCategory"></app-project-list>
